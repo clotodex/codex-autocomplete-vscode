@@ -290,7 +290,7 @@ export function activate(context: vscode.ExtensionContext) {
 		const options = {
 			rejectUnauthorized: rejectUnauthorized,
 			hostname: 'api.openai.com',
-			path: '/v1/engines/davinci-codex/completions',
+			path: '/v1/engines/code-davinci-002/completions',
 			method: 'POST',
 			headers: {
 				'Content-Type': 'application/json',
@@ -347,7 +347,7 @@ export function activate(context: vscode.ExtensionContext) {
 		const options = {
 			rejectUnauthorized: rejectUnauthorized,
 			hostname: 'api.openai.com',
-			path: '/v1/engines/davinci-codex/completions',
+			path: '/v1/engines/code-davinci-002/completions',
 			method: 'POST',
 			headers: {
 				'Content-Type': 'application/json',
